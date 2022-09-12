@@ -4,3 +4,5 @@ for file in /files/*.pdf; do
     echo $name
     pdftoppm -png "${file}" "${name}"
 done
+
+echo "Done"
